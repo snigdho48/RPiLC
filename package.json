@@ -1,24 +1,20 @@
 {
   "name": "rpilc",
+  "homepage": "https://snigdho48.github.io/RPiLC",
   "version": "2.1.4",
-  "author": "Winor",
-  "keywords": [
+    "keywords": [
     "led strip controler",
     "raspberry-pi",
     "web"
   ],
-  "description": "RPiLC allows you to easily control your RGB led strip using a Raspberry Pi",
-  "license": "GPL-3.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Winor/RPiLC.git"
-  },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
-  },
+    "start": "node index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    },
   "engines": {
-    "node": ">= 8.0.0"
+    "node": ">= 8.0.0",
   },
   "dependencies": {
     "adm-zip": "^0.4.13",
@@ -30,7 +26,7 @@
     "semver": "^6.3.0",
     "socket.io": "^4.5.1",
     "tinycolor2": "^1.4.1",
-    "tinygradient": "^1.0.0"
+    "tinygradient": "^1.0.0",
   },
   "devDependencies": {
     "eslint": "^6.8.0",
@@ -39,6 +35,6 @@
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
   }
 }

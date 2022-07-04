@@ -9,7 +9,7 @@
     }
   ],
   "server_settings": {
-    "mode": "server",
+    "mode": "Locak",
     "webserverport": "80",
     "webdir": "client",
     "debug": false,
