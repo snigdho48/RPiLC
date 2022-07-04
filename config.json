@@ -1,0 +1,25 @@
+{
+  "gpio": [
+    {
+      "RGB": {
+        "red": "23",
+        "green": "27",
+        "blue": "22"
+      }
+    }
+  ],
+  "server_settings": {
+    "mode": "server",
+    "webserverport": "80",
+    "webdir": "client",
+    "debug": false,
+    "gpio": true,
+    "thinsiodevices": false,
+    "mqtt": false
+  },
+  "remote_settings": {
+    "serverurl": "localhost"
+  },
+  "AutoGen": false,
+  "Version": "2.1.4"
+}
